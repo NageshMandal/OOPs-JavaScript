@@ -37,7 +37,9 @@ console.log(goodPerson.lastname);
 console.log(goodPerson.age);
 
 
+goodPerson.age = 20;
 
+console.log(goodPerson);
 
 
 
