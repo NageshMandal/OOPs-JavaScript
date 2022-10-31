@@ -19,8 +19,17 @@ let goodPerson = new Proxy(person , {
     get: function(target, prop, receiver) {
         console.log(prop + ' is being accessed');
         return target[prop];
+    },
+
+    set: function(target, prop, value) {
+        if(prop === 'age' && value > 200) {
+            throw new Error('Age is not valid');
+        }
+        target[prop] = value;
+        return true;
+
     }
-})
+});
 
 console.log(goodPerson);
 console.log(goodPerson.firstname);
