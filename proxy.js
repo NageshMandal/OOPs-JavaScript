@@ -10,6 +10,11 @@ console.log(person);
 console.log(person.firstname);
 console.log('---------------------------------------------------');
 
+// person.age = 300;
+// console.log(person)
+
+
+
 let goodPerson = new Proxy(person , {
     get: function(target, prop, receiver) {
         console.log(prop + ' is being accessed');
@@ -21,6 +26,8 @@ console.log(goodPerson);
 console.log(goodPerson.firstname);
 console.log(goodPerson.lastname);
 console.log(goodPerson.age);
+
+
 
 
 
