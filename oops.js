@@ -1,4 +1,4 @@
-// 1 // class object method
+//  // class object method
 
 // class hello{
 //     messege(){
@@ -14,7 +14,7 @@
 // a.welcome();
 
 
-// 2 // constructer function
+// // constructer function
 
 // class student{
 //     constructor(){
@@ -25,7 +25,7 @@
 // let a = new student();
 
 
-// 3 property function
+// // 3 property function
 
 // class student{
 //     constructor(name,age){
@@ -47,7 +47,7 @@
 // student.staticMethod();
 
 
-// INHERITANCE METHOD //
+// // INHERITANCE METHOD 
 
 // class employee{
 //     constructor(name){
@@ -100,7 +100,7 @@
 
 
 
-// COMPUTED PROPERY KEYS //
+// // COMPUTED PROPERY KEYS //
 
 // const keyName = 'Name';
 // const product = {
@@ -111,7 +111,7 @@
 // document.write(product);
 
 
-// METHOD DEFINATION SHORTHAND //
+// // METHOD DEFINATION SHORTHAND //
 
 // const keyName = 'Name';
 // const product = {
@@ -122,7 +122,7 @@
 
 // product.buy();
 
-// PROPERTY SHORTHAND //
+// // PROPERTY SHORTHAND //
 
 // const accessToken = 'retuyewr655rew';
 // const refreshToken = 'iyoiy76756547g';
@@ -135,7 +135,7 @@
 // console.log(user);
 
 
-// DESTRUCTURING//
+// // DESTRUCTURING
 
 // const user = {
 //     name: 'Nagesh Mandal',
@@ -155,7 +155,7 @@
 // console.log(name);
  
 
-// DEFAULT PARAMETERS //
+// // DEFAULT PARAMETERS //
 
 // const register = (name, password, image = 'test.png') => {
 
@@ -167,7 +167,7 @@
 
 
 
-// SPREAD //
+// // SPREAD //
 
 // const lang = ['c', 'c++', 'javascript'];
 
@@ -190,7 +190,7 @@
 
 
 
-// REST //
+// // REST //
 
 // const addItems = (...items) => {
 
@@ -201,7 +201,7 @@
 
 
 
-// FOR OF LOOP //
+// // FOR OF LOOP //
 
 // const number = [2, 4, 5, 7];
 
@@ -211,7 +211,7 @@
 
 
 
-// ARRAY STRING OBJECT SET MAP //
+// // ARRAY STRING OBJECT SET MAP //
 
 // const language = 'Javascript';
 
@@ -219,15 +219,15 @@
 //     console.log(char);
 // }
 
-const person = {
-    name: 'Nagesh',
-    city: 'India',
-    brand: 'Android',
-};
+// const person = {
+//     name: 'Nagesh',
+//     city: 'India',
+//     brand: 'Android',
+// };
 
-for (const [key , value] of Object.entries(person)) {
-    console.log(key, value);
-}
+// for (const [key , value] of Object.entries(person)) {
+//     console.log(key, value);
+// }
 
 
 
