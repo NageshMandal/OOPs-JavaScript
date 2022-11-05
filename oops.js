@@ -65,35 +65,112 @@
 
 // let a = new manager("Nagesh Mandal");
 
-class employee{
-    constructor(name,age,salery){
-        this.empname = name;
-        this.empage = age;
-        this.empsalery = salery;
-    }
-    info(){
-        document.write(`<h3>Employee Class</h3>
-                        Name : ${this.empname}<br>
-                        Age : ${this.empage}<br>
-                        Salery : ${this.empsalery}<br>`)
-    }
-}
+// class employee{
+//     constructor(name,age,salery){
+//         this.empname = name;
+//         this.empage = age;
+//         this.empsalery = salery;
+//     }
+//     info(){
+//         document.write(`<h3>Employee Class</h3>
+//                         Name : ${this.empname}<br>
+//                         Age : ${this.empage}<br>
+//                         Salery : ${this.empsalery}<br>`)
+//     }
+// }
 
-class manager extends employee{
+// class manager extends employee{
     
-    info(){
-        let ta = 1000;
-        let pa = 300;
-        let total = this.empsalery + ta + pa;
+//     info(){
+//         let ta = 1000;
+//         let pa = 300;
+//         let total = this.empsalery + ta + pa;
 
-        document.write(`<h3>Manager Class</h3>
-                        Name : ${this.empname}<br>
-                        Age : ${this.empage}<br>
-                        Salery : ${total}<br>`)
-    }
-}
-let a = new manager("nagesh", 20, 50000);
-let b = new employee("ram", 25, 30000);
+//         document.write(`<h3>Manager Class</h3>
+//                         Name : ${this.empname}<br>
+//                         Age : ${this.empage}<br>
+//                         Salery : ${total}<br>`)
+//     }
+// }
+// let a = new manager("nagesh", 20, 50000);
+// let b = new employee("ram", 25, 30000);
 
-a.info();
-b.info();
+// a.info();
+// b.info();
+
+
+
+// COMPUTED PROPERY KEYS //
+
+// const keyName = 'Name';
+// const product = {
+//     [keyName]: 'Mobile',
+//     price: 100,
+// };
+
+// document.write(product);
+
+
+// METHOD DEFINATION SHORTHAND //
+
+// const keyName = 'Name';
+// const product = {
+//     buy() {
+//         document.write('Bought');
+//     },
+// };
+
+// product.buy();
+
+// PROPERTY SHORTHAND //
+
+// const accessToken = 'retuyewr655rew';
+// const refreshToken = 'iyoiy76756547g';
+
+// const user = {
+//     accessToken,
+//     refreshToken,
+// };
+
+// console.log(user);
+
+
+// DESTRUCTURING//
+
+// const user = {
+//     name: 'Nagesh Mandal',
+//     age: 19,
+// };
+
+// const {name:fullname,age} = user;
+
+// console.log(name);
+// console.log(age);
+
+
+// const data = ['Nagesh',30,'CSE'];
+
+// const [name, age ,profession] = data;
+
+// console.log(name);
+ 
+
+// DEFAULT PARAMETERS //
+
+// const register = (name, password, image = 'test.png') => {
+
+//     console.log(name, password, image);
+
+// };
+
+//  register('Nagesh', '7633fds555', 'photo.png');
+
+
+
+// SPREAD //
+
+const lang = ['c', 'c++', 'javascript'];
+
+const newLang = [...lang];
+
+console.log(newLang);
