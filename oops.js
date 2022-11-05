@@ -169,8 +169,57 @@
 
 // SPREAD //
 
-const lang = ['c', 'c++', 'javascript'];
+// const lang = ['c', 'c++', 'javascript'];
 
-const newLang = [...lang];
+// const newLang = [...lang];
 
-console.log(newLang);
+// console.log(newLang);
+
+
+// const settings = {
+//     volume: 10,
+//     brightness: 80,
+//     address: {
+//         street: 'xyz',
+//     },
+// };
+
+// const newSettings = {...settings, contrast: 50};
+
+// console.log(newSettings);
+
+
+
+// REST //
+
+// const addItems = (...items) => {
+
+//     console.log(items);
+// };
+
+// addItems(3,42,5,6);
+
+
+
+// FOR OF LOOP //
+
+// const number = [2, 4, 5, 7];
+
+// for (const num of number) {
+//     console.log(num);
+// }
+
+
+
+// ARRAY STRING OBJECT SET MAP //
+
+const language = 'Javascript';
+
+for (const char of language) {
+    console.log(char);
+}
+
+
+
+
+
