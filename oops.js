@@ -213,10 +213,20 @@
 
 // ARRAY STRING OBJECT SET MAP //
 
-const language = 'Javascript';
+// const language = 'Javascript';
 
-for (const char of language) {
-    console.log(char);
+// for (const char of language) {
+//     console.log(char);
+// }
+
+const person = {
+    name: 'Nagesh',
+    city: 'India',
+    brand: 'Android',
+};
+
+for (const [key , value] of Object.entries(person)) {
+    console.log(key, value);
 }
 
 
