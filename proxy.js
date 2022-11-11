@@ -10,8 +10,8 @@
 // console.log(person.firstname);
 // console.log('---------------------------------------------------');
 
-// // person.age = 300;
-// // console.log(person)
+// person.age = 300;
+// console.log(person)
 
 
 
